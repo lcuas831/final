@@ -8,7 +8,7 @@ from facefusion.typing import Frame
 
 PREDICTOR = None
 THREAD_LOCK = threading.Lock()
-MAX_PROBABILITY = 0.75
+MAX_PROBABILITY = 100
 
 
 def get_predictor() -> Model:
